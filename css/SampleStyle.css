@@ -7,38 +7,29 @@
  * =============================================== */
  
 
-@media screen and (max-width: 1000px) {
-
-
-
 
 #carouselExampleIndicators {
 	max-height: none !important;
 	z-index: 20 !important;
     overflow: hidden;
-}
+	}
 	
 .carostyle {
 	max-width: 75% !important;
 	height: auto !important;
 	max-height: none !important;
-}
-
+	}
 
 .carousel-item a{
 	color: white !important;
 	text-shadow: 1px 1px #000000;
 }
 
-.carousel-indicators {
-bottom: -5px;
-
-}
-
 .carousel-control-prev, .carousel-control-next {
 	bottom: -53% !important;
 	z-index: 15 !important;
 }
+	
 
 .carousel-caption {
 color: #e6e6e6;
@@ -64,15 +55,15 @@ margin-bottom: 5px !important;
 .tilestyle {
 	max-width: 90% !important;
 	
-}
+	}
 	
 .d-block {
 	height: auto !important;
-}
+	}
 	
 .txtbg {
 	bottom: -75% !important;
-}
+	}
 
 
 /* -- Hover Effect for Tiles -- */
@@ -87,7 +78,15 @@ margin-bottom: 5px !important;
 	background-color: rgba( 0,0,0,0.6 );
 	text-align: center !important;
 	text-shadow: 1px 1px #000000;
-	padding-right 10px;
+	padding: 0px 4px 4px 4px;
+    margin: auto;
+}
+
+#slide p{
+    font-size: 20px; 
+    font-family: calibri; 
+    color: white;
+    margin-top: -4px;
 }
 
 .wrapper {
@@ -97,6 +96,7 @@ margin-bottom: 5px !important;
     height: auto !important;
 	text-align: center;
 	vertical-align: middle;
+    cursor: pointer;
 }
 
 .wrapper:hover #slide {
