@@ -1,0 +1,477 @@
+/* ====================================== *
+ * Version 5 - Added Mobile Compatibility *
+ * ====================================== */
+ 
+/* =============================================== *
+ * Version 6 - Added Advisor Page Navigation Links *
+ * =============================================== */
+ 
+
+@media screen and (max-width: 1000px) {
+
+#ctl00_ctl41_g_ebd2c910_cc2d_4fbd_b030_0aee07e55969_csr_SearchLink {
+    height: 60px !important;
+    max-width: 60px !important; 
+    margin-top: 14px !important;
+    }
+	
+#searchImg {
+    left: -56px !important;
+    top: 51px !important;
+    transform: scale(2.0) !important;
+    }
+	
+#ctl00_ctl41_g_ebd2c910_cc2d_4fbd_b030_0aee07e55969_csr_NavButton {
+    margin-top: 15px !important;
+    height: 40px !important;
+    width: 5% !important;
+    }
+	
+#navImg {
+    left: -8px !important;
+    top: -6px !important;
+    transform: scale(2.5) !important;
+    }
+#ctl00_ctl41_g_ebd2c910_cc2d_4fbd_b030_0aee07e55969_csr_sbox {
+    width: 82% !important;
+    height: 90% !important;
+	font-size: 40px !important;
+    }
+	
+#ctl00_ctl41_g_ebd2c910_cc2d_4fbd_b030_0aee07e55969_csr_sboxdiv{
+	max-width: none !important;
+	height: 85px !important;
+    }
+	
+#SearchBox {
+    width: 90% !important;
+    }
+
+
+#slide {
+    bottom: -80% !important;
+    
+	}
+
+.wrapper:hover #slide {
+    transition: .5s !important;
+    bottom: 0 !important;
+	}
+
+.wrapper{
+	height: auto !important;
+	}
+	
+.carousel-indicators {
+    bottom: 11% !important;
+	
+	}
+	
+#carouselExampleIndicators {
+	max-height: none !important;
+	z-index: 20 !important;
+	}
+	
+.carostyle {
+	max-width: 75% !important;
+	height: auto !important;
+	max-height: none !important;
+	}
+	
+.tilestyle {
+	max-width: 90% !important;
+	
+	}
+	
+.d-block {
+	height: auto !important;
+	}
+	
+.txtbg {
+	bottom: -75% !important;
+	}
+.carousel-caption {
+	bottom: 3% !important;
+	}
+.carousel-control-prev, .carousel-control-next {
+	bottom: -53% !important;
+	z-index: 15 !important;
+	}
+	
+}
+
+     /* ----- HIDING SHAREPOINT ELEMENTS ----- */
+
+
+.ms-core-listMenu-horizontalBox {
+    float: none;
+}
+
+#ctl00_QuickLaunchNavigationManager{
+    text-align: center;
+}	
+
+#DeltaPlaceHolderSearchArea{
+    display: none;
+}	
+
+.ms-rtestate-field{
+max-width: 100% !important;
+}
+
+#DeltaSiteLogo {
+display: none;
+}
+
+.contentwrapper{
+margin: 0px !important;
+}
+
+#DeltaPlaceHolderMain > div:nth-child(1) {
+padding: 0px !important;
+}
+
+#siteIcon {
+margin: 0px 0px 0px 0px!important;
+min-width: 10px !important;
+}
+
+.ms-breadcrumb-box {
+padding-top: 0px !important;
+}
+
+.ms-belltown-authenticated .ms-belltown-searcharea {
+    padding-top: 33px;
+
+}
+
+.ms-pub-contentLayout {
+padding: 0px;
+
+}
+
+#titleAreaBox {
+margin: 0px;
+
+}
+
+#pageTitle {
+display: none;
+
+}
+
+#pageContentTitle {
+display: none !important;
+}
+
+#ctl00_PlaceHolderSearchArea_SmallSearchInputBox1_csr_sboxdiv{
+display: none;
+}
+#DeltaPlaceHolderMain > div:nth-child(1) > div.col-fluid-1 > div > div.ms-descriptiontext.ewiki-margin{
+display: none;
+}
+
+   /* -----  GIANT SEARCH BOX STUFF ----- */
+
+.ms-floatLeft {
+float: none;
+}
+
+#ctl00_ctl41_g_ebd2c910_cc2d_4fbd_b030_0aee07e55969_csr_sbox{
+width: 84%;
+height: 60px;
+font-size: 25px;
+margin: 1px 1px 6px 10px;
+float: left;
+}
+
+#ctl00_ctl41_g_ebd2c910_cc2d_4fbd_b030_0aee07e55969_csr_sboxdiv{
+max-width: 770px;
+width:100%
+}
+
+#SearchBox{
+width: 80%;
+margin: auto;
+text-align: center;
+}
+
+#ctl00_ctl41_g_ebd2c910_cc2d_4fbd_b030_0aee07e55969_csr_NavButton{
+    margin-top: 10px;
+    height: 40px;
+    width: 4%;
+}
+
+#ctl00_ctl41_g_ebd2c910_cc2d_4fbd_b030_0aee07e55969_csr_SearchLink{
+height: 42px;
+max-width: 35px;
+width: 100%;
+margin-top: 10px;
+white-space: nowrap;
+}
+
+#ctl00_ctl41_g_ebd2c910_cc2d_4fbd_b030_0aee07e55969_csr{
+width: 80%;
+margin: auto;
+}
+
+#WebPartWPQ5 > div:nth-child(1){
+max-width: 900px;
+}
+
+#DeltaPlaceHolderMain > div:nth-child(1) > div.right-wp-zone-col{
+display: none;
+}
+
+#CenterContain {
+   margin: auto;
+   text-align: center;
+   margin-top: 40px;
+   }
+
+#WebPartWPQ6 > table{
+max-width: 900px;
+margin: auto;
+}
+
+#WPQ6-\{2D0461D1-A9CA-4AEA-A9D5-ED7B516E8716\} > table{
+    width: auto;
+    table-layout: auto;
+    max-width: 900px;
+    margin: auto;
+}
+
+#WPQ4-\{2D0461D1-A9CA-4AEA-A9D5-ED7B516E8716\} > table > tbody > tr > td {
+    text-align: center;
+	}
+
+
+#DeltaPlaceHolderMain > div:nth-child(1) > div.col-fluid-1 {
+margin-right: 0px;
+}
+
+#DeltaPlaceHolderMain > div:nth-child(1) > div.col-fluid-1 > div {
+margin-right: 0px;
+}
+
+#searchImg {
+    left: -57px;
+    top: 26px;
+    transform: scale(1.5);
+}
+
+#searchImg:hover {
+    left: 21px;
+    top: -25px;
+    transform: scale(1.5);
+}
+
+#navImg {
+    left: -23px;
+    top: -18px;
+    transform: scale(1.5);
+}
+
+#navImg:hover {
+    left: -56px;
+    top: -18px;
+	transform: scale(1.5);
+}
+
+/* Welcome to Concentrix Image upper margin*/
+#WebPartWPQ4 > div.ms-rtestate-field > div > div.col-sm-8 > img{
+    margin-top: 0%;
+	
+}
+
+/* -- Hover Effect for Tiles -- */
+
+#slide {
+    position: absolute;
+    bottom: -78%;
+    width: 100%;
+    height: 100%;
+    transition: .5s;
+	background-color: rgba( 0,0,0,0.6 );
+	text-align: center !important;
+	text-shadow: 1px 1px #000000;
+	padding-right 10px;
+}
+
+.wrapper {
+    position: relative;
+    overflow: hidden;
+    width: 295px;
+    height: 118px; 
+	text-align: center;
+	vertical-align: middle;
+}
+
+.wrapper:hover #slide {
+    transition: .5s;
+    bottom: 0;
+}
+
+/* Transparent Color Left Side */ 
+
+.txtbg {
+position: absolute;
+    bottom: -175px;
+    width: 100%;
+    height: 100%;
+	background-color: rgba( 0,0,0,0.6 );
+	text-align: left !important;
+}
+
+#carouselExampleIndicators {
+max-height: 244px;
+overflow: hidden;
+}
+
+.carousel-item a{
+	color: white !important;
+	text-shadow: 1px 1px #000000;
+}
+
+.carousel-indicators {
+bottom: -5px;
+
+}
+
+/* LEFT SIDE TEXT POSITION */ 
+
+.carousel-caption {
+color: #e6e6e6;
+bottom: -10px;
+left: 1% !important;
+right: 1% !important;
+text-shadow: 1px 1px #000000;
+}
+
+.carousel-caption:hover {
+color: #fff;
+text-shadow: 2px 2px #000000;
+}
+
+.carousel-caption h5 {
+margin-bottom: .04rem !important;
+
+}
+
+.carousel-caption p {
+margin-bottom: 5px !important;
+
+}
+
+
+/* Right Side 2X3 Grid*/
+
+.rowcell > div {
+    max-width: 295px;
+	min-width: 150px;
+	padding-left: 0px;
+	padding-right: 0px;
+}
+
+.rowcell > div > img{
+    width: 100%;
+}
+
+
+/* *^* Left Side Squares Only *^* */
+
+.rowcell2 > div {
+    max-width: 295px;
+	padding-left: 0px;
+	padding-right: 0px;
+}
+
+.rowcell2 > div >img{
+    width: 100%;
+}
+
+/* Search Box Border Element */
+
+.ms-srch-sb-border{
+border-radius: 8px;
+
+}
+
+.ms-srch-sb-borderFocused{
+border-radius: 8px;
+}
+
+.ms-tileview-tile-root {
+    display: inline-flex;
+    }
+
+div.ms-promlink-body {
+  max-height: 800px;
+  height: 100%;
+  max-width: 900px;
+  width: auto;
+  padding-left: 10px;
+  margin: auto;
+  }
+
+
+.ms-promlink-body img{
+right:inherit !important;
+}
+
+  
+div.ms-tileview-tile-root {
+    float: none;
+    width: 260px !important;
+  }
+
+ 
+div.ms-tileview-tile-content, div.ms-tileview-tile-detailsBox {
+    width: 250px !important;
+ 
+  }
+
+  
+.ms-tileview-tile-content > a > img {
+    width: 250px !important;
+  }
+
+  
+ul.ms-tileview-tile-detailsListMedium {
+    padding: 4px 7px 7px;
+    font-size: 20px;
+    line-height: 32px;
+  }
+
+ 
+li.ms-tileview-tile-descriptionMedium {
+    padding-top: 10px;
+    font-size: 13px;
+    line-height: 16px;
+  }
+
+img.ms-positionRelative{
+  position: sticky;
+  max-width: 250px;    
+  width: 100% !important;
+  height: 100% !important;
+}
+
+.ms-promlink-header{
+display:none;
+
+
+
+.bubble:hover{
+transform: scale(1.25);
+}
+
+.hvr:hover{
+background-color: #e7e7e7;
+}
+
+
+
+#pageContentTitle {
+display: none !important;
+}
