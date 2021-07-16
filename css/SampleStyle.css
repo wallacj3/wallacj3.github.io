@@ -8,49 +8,6 @@
  
 
 
-#carouselExampleIndicators {
-	max-height: none !important;
-	z-index: 20 !important;
-    overflow: hidden;
-	}
-	
-.carostyle {
-	max-width: 75% !important;
-	height: auto !important;
-	max-height: none !important;
-	}
-
-.carousel-item a{
-	color: white !important;
-	text-shadow: 1px 1px #000000;
-}
-
-.carousel-control-prev, .carousel-control-next {
-	bottom: -53% !important;
-	z-index: 15 !important;
-}
-	
-
-.carousel-caption {
-color: #e6e6e6;
-text-shadow: 1px 1px #ffffff;
-}
-
-.carousel-caption:hover {
-color: #fff;
-text-shadow: 2px 2px #ffffff;
-}
-
-.carousel-caption h5 {
-margin-bottom: .04rem !important;
-
-}
-
-.carousel-caption p {
-margin-bottom: 5px !important;
-
-}
-
 
 .tilestyle {
 	max-width: 90% !important;
@@ -65,7 +22,7 @@ margin-bottom: 5px !important;
 	bottom: -75% !important;
 	}
 
-	
+
 
 /* -- Hover Effect for Tiles -- */
 
@@ -141,4 +98,8 @@ position: absolute;
 
 .rowcell2 > div >img{
     width: 100%;
+}
+
+.hide {
+	display: none;
 }
