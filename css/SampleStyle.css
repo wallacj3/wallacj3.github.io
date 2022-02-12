@@ -103,3 +103,73 @@ position: absolute;
 .hide {
 	display: none;
 }
+
+  /*========================//
+ //   Code Example Styles  //
+//========================*/
+
+.pre-sty {
+    background-color: black;
+    color: white;
+    padding: 2% 50% 2% 2%;
+    border-radius: 10px;
+    white-space: pre-wrap;
+    text-align: left;
+  }
+  
+  .pre-sty::before {
+    counter-reset: listing;
+    float: left;
+  }
+  
+  .pre-sty .pre-qual {
+    counter-increment: listing;
+    text-align: left;
+    float: left;
+    clear: left;
+    color: #f8b068;
+  }
+  
+  .pre-sty .pre-qual::before {
+    content: counter(listing) ". ";
+    display: inline-block;
+    color: #6e6e6e;
+  }
+  
+  .pre-sty .pre-prop {
+    counter-increment: listing;
+    text-align: left;
+    float: left;
+    clear: left;
+    color: #6ce890;
+  }
+  
+  .pre-sty .pre-prop::before {
+    content: counter(listing) ". ";
+    display: inline-block;
+    width: 3em;
+    color: #6e6e6e;
+  }
+  
+  .pre-num {
+    color: #ed6e55;
+    text-align: left;
+    float: left;
+  }
+  
+  .pre-kw {
+    color: #bc70fd;
+    text-align: left;
+    float: left;
+  }
+  
+  .js-definition {
+    color: #fdc502;
+    background: rgba(253, 197, 2, 0.05);
+    padding: 1px 2px;
+    border-radius: 2px;
+    text-align: left;
+    clear: left;
+  }
+  
+  
