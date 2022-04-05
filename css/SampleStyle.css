@@ -7,7 +7,21 @@
  * =============================================== */
  
 
+ @media (min-width: 992px){
+   
+ }
+.txt-adj{
+  font-size: 1.4vmax;
+}
 
+.portfolio-modal .modal-dialog {
+  margin: auto !important;
+  max-width: 90vw !important;
+}
+
+.top-space{
+    margin-top: 75px;
+}
 
 .tilestyle {
 	max-width: 90% !important;
@@ -107,6 +121,10 @@ position: absolute;
   /*========================//
  //   Code Example Styles  //
 //========================*/
+
+.line{
+  border-left: 2pt solid black;
+}
 
 .pre-sty {
     background-color: black;
